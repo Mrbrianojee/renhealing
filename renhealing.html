@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reiki Website</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <style>
+        body {
+            background-color: #ffffff; /* white background */
+            color: #004d40; /* subtle green text */
+        }
+
+        h1, h2, h3, h4, h5, h6,  nav a{
+        font-family: 'Josefin Slab', Arial, serif;
+        }
+         h1{
+            font-size: 90px;
+         
+         }
+
+         h1, .sub-head {
+               color:#fff;
+         }
+
+
+        p {
+            font-family: 'Lato', Arial, sans-serif;
+        }
+
+        .navbar-brand {
+            font-size: 30px; /* Adjust as needed */
+        }
+
+        nav a {
+        font-size: 20px; /* Adjust as needed */
+        }
+
+
+        .header {
+             border-bottom:none; 
+            }
+
+        .btn-primary {
+            background-color: #004d40; /* subtle green buttons */
+            border-color: #004d40;
+        }
+
+        .btn-primary:hover {
+            background-color: #00332a;
+            border-color: #00332a;
+        }
+
+        h2 {
+            color: #004d40; /* subtle green headings */
+        }
+
+        .jumbotron {
+            background-image: url('/Users/brianogrady/Downloads/handsbanner.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        #benefits, #testimonials, #contact {
+            border-top: 5px solid #004d40; /* subtle green section borders */
+        }
+
+        /* Customize the carousel */
+        .carousel-inner {
+            border-radius: 15px; /* Add rounded corners */
+            overflow: hidden; /* Hide anything outside the rounded corners */
+        }
+
+        .carousel-item {
+            height:300px; /* Set a fixed height */
+            background-color: #fff; /* Set a background color */
+        }
+
+        .carousel-item img {
+            object-fit: cover; /* Make images cover the entire carousel item */
+            height: 100%; /* Make images fill the entire height */
+            width: 100%; /* Make images fill the entire width */
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #004d40; /* Change the color of the control icons */
+        }
+
+        .carousel-indicators li {
+            background-color: #004d40; /* Change the color of the indicators */
+        }
+
+
+        #backToTop::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 15px solid #ffffff;
+        }
+
+        #backToTop:hover {
+            background-color: #00332a;
+        }
+
+        #backToTop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        #backToTop i {
+            color: #ffffff;
+        }
+
+      
+
+        @media (max-width: 768px) {
+            .carousel-item  {
+                height: 550px; /* Increased height */
+            }
+
+            .nav-item a {
+            display: block;
+            padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Ren Healing</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#benefits">Benefits</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="jumbotron text-center">
+        <h1>Ren Healing</h1>
+        <p class="sub-head" >Experience the healing power of Reiki</p>
+    </header>
+
+    <!-- Benefits Section -->
+<section id="benefits" class="container py-5">
+    <h2 class="text-center mb-4">Benefits of Reiki</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="/Users/brianogrady/Downloads/reiki_hands_candles.jpg" alt="Benefit of Reiki" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <p>Welcome to Ren Healing, a sanctuary where ancient healing traditions meet modern wellness. Experience the transformative power of Reiki, a gentle yet profound energy healing technique that promotes relaxation, reduces stress, and fosters overall wellbeing.</p>
+            <p>
+                Reiki is a Japanese technique for stress reduction and relaxation that also promotes healing. It is based on the idea that an unseen 'life force energy' flows through us and is what causes us to be alive. If one's life force energy is low, then we are more likely to get sick or feel stress, and if it is high, we are more capable of being happy and healthy. Reiki treats the whole person including body, emotions, mind, and spirit, creating many beneficial effects that include relaxation and feelings of peace, security, and wellbeing."
+            </p>
+        </div>
+    </div>
+</section>
+<!-- Services Section -->
+<section id="services" class="container py-5">
+    <h2 class="text-center mb-4">Our Services</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="/Users/brianogrady/Downloads/hands.png" alt="Service 1" class="img-fluid">
+            <h3 class="mt-3">Individual Reiki Sessions</h3>
+            <p>A personalized experience where our skilled practitioners channel energy to promote your physical, emotional, and spiritual healing.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="/Users/brianogrady/Downloads/handsperson.jpg" alt="Service 2" class="img-fluid">
+            <h3 class="mt-3">Distance Reiki</h3>
+            <p>Experience the benefits of Reiki from the comfort of your home. This powerful technique transcends physical distance.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="/Users/brianogrady/Downloads/yoga.jpg" alt="Service 3" class="img-fluid">
+            <h3 class="mt-3">Reiki Workshops and Training</h3>
+            <p>Learn the art of Reiki for self-healing or to become a practitioner.</p>
+        </div>
+    </div>
+</section>
+<!-- Testimonials Section -->
+<section id="testimonials" class="container py-5">
+    <h2 class="text-center mb-4">Testimonials</h2>
+    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <p>"Finding Ren Healing has been a life-changing experience for me. As someone who struggled with chronic stress and anxiety, the sessions here have brought a profound sense of calm and balance to my life. The practitioners are not only skilled but also incredibly compassionate and understanding. Each session feels like a journey towards deeper self-awareness and tranquility. I leave feeling rejuvenated and more in tune with myself. I can't thank the team enough for their dedication and healing touch."</p>
+                        <p>- Emily R</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/Users/brianogrady/Downloads/candlewoods.jpg" alt="Testimonial" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <p>"I was initially skeptical about trying Reiki, but the experience at Ren Healing completely transformed my perspective. The serene environment and the gentle approach of the practitioners helped me relax from the moment I walked in. After several sessions, I've noticed significant improvements in my sleep quality and overall energy levels. It's like a wave of peace washes over me during each session, leaving me feeling grounded and centered. This has become an essential part of my wellness routine."</p>
+                        <p>- Michael T</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/Users/brianogrady/Downloads/threecndles.png" alt="Testimonial" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <!-- Add more testimonials as needed -->
+        </div>
+        <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+<!-- Contact Form Section -->
+<section id="contact" class="container py-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</section>
+
+<button id="backToTop" style="display: none; position: fixed; bottom: 20px; right: 20px; width: 50px; height: 50px; border-radius: 50%; background-color: #004d40; border: none;">
+    <i class="fas fa-arrow-up"></i> <!-- FontAwesome icon -->
+</button>
+
+    <!-- Footer -->
+    <footer class="footer bg-light text-center">
+        <p>&copy; 2022 Reiki Center</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<script>
+// Smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Back to Top button
+var backToTopButton = document.getElementById("backToTop");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    backToTopButton.style.display = "block";
+  } else {
+    backToTopButton.style.display = "none";
+  }
+}
+
+backToTopButton.addEventListener('click', function (e) {
+    e.preventDefault();
+    window.scrollTo({top: 0, behavior: 'smooth'});
+});
+</script>
+</body>
+</html>
