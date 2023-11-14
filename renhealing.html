@@ -1,3 +1,9 @@
+<!-- FILEPATH: /Users/brianogrady/Documents/renhealing2/renhealing/renhealing.html -->
+<!-- This is the HTML file for the Ren Healing website. 
+    It includes a navigation bar, hero section, benefits section, services section, 
+    testimonials section, contact form section, and footer. 
+    The file also includes Bootstrap CSS and JavaScript, as well as custom styles for the website.
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,131 +17,193 @@
 
 
     <style>
-        body {
-            background-color: #ffffff; /* white background */
-            color: #004d40; /* subtle green text */
-        }
 
-        h1, h2, h3, h4, h5, h6,  nav a{
-        font-family: 'Josefin Slab', Arial, serif;
-        }
-         h1{
-            font-size: 90px;
-         
-         }
+// Set background color and font color
+body {
+  background-color: #ffffff;
+  color: #004d40;
+  font-family: Josefin Slab, Arial, serif;
+}
 
-         h1, .sub-head {
-               color:#fff;
-         }
+// Set font size of h1
+h1 {
+  font-size: 90px;
+}
 
+// Set color of h1 and .sub-head
+h1, .sub-head {
+  color: #fff;
+}
 
-        p {
-            font-family: 'Lato', Arial, sans-serif;
-        }
-
-        .navbar-brand {
-            font-size: 30px; /* Adjust as needed */
-        }
-
-        nav a {
-        font-size: 20px; /* Adjust as needed */
-        }
+// Set font family
+p {
+  font-family: Lato, Arial, sans-serif;
+}
 
 
-        .header {
-             border-bottom:none; 
-            }
 
-        .btn-primary {
-            background-color: #004d40; /* subtle green buttons */
-            border-color: #004d40;
-        }
+// Set background color and font color
+body {
+  background-color: #ffffff;
+  color: #004d40;
+  font-family: Josefin Slab, Arial, serif;
+}
 
-        .btn-primary:hover {
-            background-color: #00332a;
-            border-color: #00332a;
-        }
+// Set font size of h1
+h1 {
+  font-size: 90px;
+}
 
-        h2 {
-            color: #004d40; /* subtle green headings */
-        }
+// Set color of h1 and .sub-head
+h1, .sub-head {
+  color: #fff;
+}
 
-        .jumbotron {
-            background-image: url('https://i.imgur.com/pCG5r7A.png');
-            background-size: cover;
-            background-position: center;
-        }
-
-        #benefits, #testimonials, #contact {
-            border-top: 5px solid #004d40; /* subtle green section borders */
-        }
-
-        /* Customize the carousel */
-        .carousel-inner {
-            border-radius: 15px; /* Add rounded corners */
-            overflow: hidden; /* Hide anything outside the rounded corners */
-        }
-
-        .carousel-item {
-            height:300px; /* Set a fixed height */
-            background-color: #fff; /* Set a background color */
-        }
-
-        .carousel-item img {
-            object-fit: cover; /* Make images cover the entire carousel item */
-            height: 100%; /* Make images fill the entire height */
-            width: 100%; /* Make images fill the entire width */
-        }
-
-        .carousel-control-prev-icon,
-        .carousel-control-next-icon {
-            background-color: #004d40; /* Change the color of the control icons */
-        }
-
-        .carousel-indicators li {
-            background-color: #004d40; /* Change the color of the indicators */
-        }
+// Set font family
+p {
+  font-family: Lato, Arial, sans-serif;
+}
 
 
-        #backToTop::before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 0;
-        height: 0;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-bottom: 15px solid #ffffff;
-        }
+// Set background color and font color
+body {
+  background-color: #ffffff;
+  color: #004d40;
+  font-family: Josefin Slab, Arial, serif;
+}
 
-        #backToTop:hover {
-            background-color: #00332a;
-        }
+// Set font size of h1
+h1 {
+  font-size: 90px;
+}
 
-        #backToTop {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        }
+// Set color of h1 and .sub-head
+h1, .sub-head {
+  color: #fff;
+}
 
-        #backToTop i {
-            color: #ffffff;
-        }
+// Set font family
+p {
+  font-family: Lato, Arial, sans-serif;
+}
 
-      
+/* 
+    This code sets the background image of the .jumbotron class to the image at https://i.imgur.com/pCG5r7A.png. It then sets the background size of the .jumbotron class to cover and the background position of the .jumbotron class to center.
+ */
+.jumbotron {
+  background-image: url("https://i.imgur.com/pCG5r7A.png");
+  background-size: cover;
+  background-position: center;
+}
 
-        @media (max-width: 768px) {
-            .carousel-item  {
-                height: 550px; /* Increased height */
-            }
+// Set background image and size of .jumbotron
+.jumbotron {
+  background-image: url("https://i.imgur.com/pCG5r7A.png");
+  background-size: cover;
+  background-position: center;
+}
 
-            .nav-item a {
-            display: block;
-            padding: 10px;
-            }
-        }
+// Set border-top of #benefits, #testimonials, and #contact
+#benefits, #testimonials, #contact {
+  border-top: 5px solid #004d40;
+}
+
+// Set border radius and overflow of .carousel-inner
+.carousel-inner {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+// Set height and background color of .carousel-item
+.carousel-item {
+  height: 300px;
+  background-color: #fff;
+}
+
+// Set background color of .carousel-control-prev-icon and .carousel-control-next-icon
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #004d40;
+}
+
+// Set background color of .carousel-indicators li
+.carousel-indicators li {
+  background-color: #004d40;
+}
+
+// Set flexbox properties of #backToTop
+#backToTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Set border-top of #benefits, #testimonials, and #contact
+#benefits, #testimonials, #contact {
+  border-top: 5px solid #004d40;
+}
+
+// Set border radius and overflow of .carousel-inner
+.carousel-inner {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+// Set height and background color of .carousel-item
+.carousel-item {
+  height: 300px;
+  background-color: #fff;
+}
+
+// Set background color of .carousel-control-prev-icon and .carousel-control-next-icon
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #004d40;
+}
+
+// Set background color of .carousel-indicators li
+.carousel-indicators li {
+  background-color: #004d40;
+}
+
+// Set flexbox properties of #backToTop
+#backToTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Set position, size, and border of #backToTop::before
+#backToTop::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid #ffffff;
+}
+
+  #backToTop i {
+    /* Set the color of the icon */
+    color: #ffffff;
+  }
+
+  /* Change background color of button when hovering over it */
+  #backToTop:hover {
+    background-color: #00332a;
+  }
+
+  /* Increase height of carousel item on small screens */
+  @media (max-width: 768px) {
+    .carousel-item  {
+      height: 550px; 
+    }
+  }
+
     </style>
 </head>
 <body>
@@ -160,13 +228,16 @@
 
     <!-- Benefits Section -->
 <section id="benefits" class="container py-5">
+    <!-- Benefits of Reiki -->
     <h2 class="text-center mb-4">Benefits of Reiki</h2>
     <div class="row">
         <div class="col-md-6">
             <img src="https://i.imgur.com/vrCTXTr.jpg" alt="Benefit of Reiki" class="img-fluid">
         </div>
         <div class="col-md-6">
-            <p>Welcome to Ren Healing, a sanctuary where ancient healing traditions meet modern wellness. Experience the transformative power of Reiki, a gentle yet profound energy healing technique that promotes relaxation, reduces stress, and fosters overall wellbeing.</p>
+            <p>
+                Welcome to Ren Healing, a sanctuary where ancient healing traditions meet modern wellness. Experience the transformative power of Reiki, a gentle yet profound energy healing technique that promotes relaxation, reduces stress, and fosters overall wellbeing.
+            </p>
             <p>
                 Reiki is a Japanese technique for stress reduction and relaxation that also promotes healing. It is based on the idea that an unseen 'life force energy' flows through us and is what causes us to be alive. If one's life force energy is low, then we are more likely to get sick or feel stress, and if it is high, we are more capable of being happy and healthy. Reiki treats the whole person including body, emotions, mind, and spirit, creating many beneficial effects that include relaxation and feelings of peace, security, and wellbeing."
             </p>
@@ -174,6 +245,7 @@
     </div>
 </section>
 <!-- Services Section -->
+
 <section id="services" class="container py-5">
     <h2 class="text-center mb-4">Our Services</h2>
     <div class="row">
@@ -283,6 +355,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Back to Top button
 var backToTopButton = document.getElementById("backToTop");
 
+
+// When the user scrolls down 100px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -297,6 +371,7 @@ backToTopButton.addEventListener('click', function (e) {
     e.preventDefault();
     window.scrollTo({top: 0, behavior: 'smooth'});
 });
+
 </script>
 </body>
 </html>
